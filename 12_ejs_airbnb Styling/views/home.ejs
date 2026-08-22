@@ -1,0 +1,29 @@
+<% if (homes.length === 0) { %>
+
+  <div class="no-homes">
+    <h2>No homes registered yet.</h2>
+    <p>Be the first to register your home!</p>
+  </div>
+
+<% } else { %>
+
+  <div class="home-list">
+    <% homes.forEach(home => { %>
+
+      <div class="home-card">
+        <img src="<%= home.photo %>" alt="<%= home.houseName %>">
+
+        <div class="home-card-content">
+          <h3><%= home.houseName %></h3>
+          <p><%= home.location %></p>
+          <p class="price">
+            ₹<%= home.price %>
+            <span>/ night</span>
+          </p>
+        </div>
+      </div>
+
+    <% }) %>
+  </div>
+
+<% } %> 

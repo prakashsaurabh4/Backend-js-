@@ -1,0 +1,25 @@
+/* =========================
+   NO HOMES MESSAGE
+========================= */
+
+.no-homes {
+  width: 90%;
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 50px 30px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.no-homes h2 {
+  font-size: 28px;
+  color: #222;
+  margin-bottom: 12px;
+}
+
+.no-homes p {
+  font-size: 17px;
+  color: #777;
+}
